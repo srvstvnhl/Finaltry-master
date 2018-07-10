@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/pink6"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+           android:padding="2dp"
+            android:id="@+id/search"
+            android:layout_marginLeft="270dp"
+            android:src="@drawable/baseline_search_black_18dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+
+<android.support.design.widget.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pink5"
+    app:tabMode="fixed"
+    app:tabGravity="fill"
+    app:tabIndicatorColor="@color/pinkRuby"
+    android:id="@+id/tablayout_id"></android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager_id">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

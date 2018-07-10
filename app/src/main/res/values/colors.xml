@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pink">#FF4081</color>
+    <color name="lightBlue">#007FFF</color>
+    <color name="skyBlue">#87CEEB</color>
+    <color name="vanilla">#F3E5AB</color>
+    <color name="purple">#AB47BC</color>
+    <color name="pink2">#FF1744</color>
+    <color name="pink3">#FF80AB</color>
+    <color name="pink4">#FF4081</color>
+    <color name="pink5">#F06292</color>
+    <color name="pink6">#F48FB1</color>
+    <color name="pink7">#F8BBD0</color>
+
+
+
+    <color name="purple_light">#BA68C8</color>
+
+    <color name="orangew">#FF6D00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#000</color>
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#23A7D8</color>
+
+
+    <color name="login_LightBlue">#05c3f9</color>
+    <color name="login_darkBlue">#0691b8</color>
+
+
+    <color name="dark_blue">#23283a</color>
+    <color name="dark_pink">#fe104d</color>
+
+    <color name="gray">#8989</color>
+    <color name="pinkRuby">#E0115F</color>
+    <color name="greenPastel">#03C03C</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg"
+    tools:context="com.example.nihal.finaltry.Activity.LoginActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout1"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="150dp"
+                android:id="@+id/logo"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chattinglogo"
+                />
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/logo"
+                android:id="@+id/layout2"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <TextView
+                   android:layout_width="match_parent"
+                    android:layout_marginTop="35dp"
+                    android:layout_height="40dp"
+                    android:textColor="#01579B"
+                    android:id="@+id/login"
+                    android:textStyle="bold"
+                    android:textSize="29dp"
+                    android:gravity="center_horizontal"
+                    android:text="CODDLE"
+                    />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:text="Sign Up"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="100dp"
+                    android:textColorHighlight="@color/white"
+                    android:includeFontPadding="true"
+                    android:fontFamily="monospace"
+                    android:background="@drawable/sing_upbutton"
+                    android:id="@+id/signup"
+                    android:layout_height="35dp" />
+
+            </LinearLayout>
+     </RelativeLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>
