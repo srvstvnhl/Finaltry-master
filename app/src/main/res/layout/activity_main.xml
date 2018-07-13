@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="@color/pink6"
+        android:background="@color/colorPrimary"
         android:layout_height="50dp">
 
         <ImageView
@@ -22,16 +22,25 @@
             android:src="@drawable/baseline_search_black_18dp"
             android:layout_marginTop="10dp"
             android:layout_height="30dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:padding="2dp"
+            android:id="@+id/three_dot"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/ic_three_dot"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp" />
     </LinearLayout>
 
 
 <android.support.design.widget.TabLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/pink5"
+    android:background="@color/colorPrimary"
     app:tabMode="fixed"
     app:tabGravity="fill"
-    app:tabIndicatorColor="@color/pinkRuby"
+    app:tabIndicatorColor="@color/pink5"
     android:id="@+id/tablayout_id"></android.support.design.widget.TabLayout>
 
     <android.support.v4.view.ViewPager

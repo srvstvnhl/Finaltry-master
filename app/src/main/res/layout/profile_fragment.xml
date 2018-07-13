@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentProfile"
+    android:background="@color/white"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="60dp">
 
-</LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/profile"
+        android:src="@drawable/elon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mandir whi bnega"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/person_name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/person_name"
+        android:text="35"
+        android:textColor="@color/grey"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/age"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_below="@id/age"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:id="@+id/username"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:id="@+id/bio"
+        android:text="Bio : "
+        android:textColor="@color/grey"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/bio"/>
+
+
+
+</RelativeLayout>
